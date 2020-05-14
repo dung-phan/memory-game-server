@@ -6,7 +6,7 @@
 
 # Introduction
 
-This repository is the serve of the Memory Game app.
+This repository is the server of the Memory Game app.
 This project uses Express server and Sequelize ORM.
 
 ## Features Overview
