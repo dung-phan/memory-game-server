@@ -12,7 +12,7 @@ const db = require("./db");
 
 const gameRouter = require("./game/router");
 
-db.sync({ force: true })
+db.sync()
   .then(() => {
     console.log("Database connected");
   })
