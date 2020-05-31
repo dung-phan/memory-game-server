@@ -13,6 +13,7 @@ const Game = db.define("game", {
   },
   winCheck: {
     type: Sequelize.BOOLEAN,
+    defaultValue: null,
   },
   status: {
     type: Sequelize.ENUM("empty", "playing", "done"),
